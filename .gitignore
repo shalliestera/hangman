@@ -1,0 +1,18 @@
+# Dev-cpp
+
+*.dev
+
+*.gch
+
+*.exe
+
+*.win
+
+*.layout
+
+# Qt
+*.pro
+*.user
+
+# C++
+*.o
