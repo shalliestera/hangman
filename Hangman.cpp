@@ -16,7 +16,7 @@ void Hangman::init(int chances){
         m_show[i] = '-';
 	}
   m_wrong = "\0";	// 初始化 错误字符记录
-	m_chances = chances;	// 初始化可猜次数
+	m_usrChances = m_chances = chances;	// 初始化可猜次数
 }
 
 // 控制猜测流程
@@ -77,12 +77,12 @@ void Hangman::YouWin() {
 	// Win and init
 	std::cout << "Congratuations!!! You Got It!!!\n";
 	std::cout << "The word is " << RightWord() << std::endl;
-	init();
+	init(m_usrChances);
 }
 
 void Hangman::GameOver() {
 	// GameOver and init
 	std::cout << "You lose. The right word is " << RightWord() << std::endl;
 	std::cout << "You guess " << YouGuess() << std::endl;
-	init();
+	init(m_usrChances);
 }
