@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dev-cpp
 
 *.dev
@@ -16,3 +17,33 @@
 
 # C++
 *.o
+=======
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+>>>>>>> 50545b16b159649017df5a80c82afe78ff62a8d3
